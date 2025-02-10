@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cascading Demo</title>
+  <style>
+    #welcome {
+      color: lightblue;
+      font-size: 50px;
+    }
+    .welcome-msg {
+      color: yellow;
+      background-color: black;
+    }
+    div p {
+      color: blue;
+      font-size: 16px;
+    }
+
+    p {
+      color: red;
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+ <h1>Test page</h1>
+ <div>
+  <p id="welcome" class="welcome-msg">Hello <strong>cascading</strong>!</p>
+  <!-- <p id="welcome" class="welcome-msg">Hello <strong>cascading</strong>!</p> Backup copy -->
+   <p>ABC</p>
+   <p class="welcome-msg">DEF</p>
+   <p id="welcome">GHI</p>
+  </div>
+  <p>JKL</p>
+  <p class="welcome-msg">MNO</p>
+  <p id="welcome">PQR</p>
+</body>
+</html>
