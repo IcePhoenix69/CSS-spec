@@ -20,12 +20,18 @@
       color: red;
       font-size: 40px;
     }
+    .welcome-extra-1 .welcome-extra-2 {
+      background-color: rgb(120, 120, 208);
+    }
+    p {
+      background-color: brown;
+    }
   </style>
 </head>
 <body>
  <h1>Test page</h1>
  <div>
-  <p id="welcome" class="welcome-msg">Hello <strong>cascading</strong>!</p>
+  <p id="welcome" class="welcome-msg welcome-extra-1 welcome-extra-2">Hello <strong>cascading</strong>!</p>
   <!-- <p id="welcome" class="welcome-msg">Hello <strong>cascading</strong>!</p> Backup copy -->
    <p>ABC</p>
    <p class="welcome-msg">DEF</p>
@@ -34,5 +40,8 @@
   <p>JKL</p>
   <p class="welcome-msg">MNO</p>
   <p id="welcome">PQR</p>
+  <div class="welcome-extra-1">
+    <p class="welcome-extra-2">Base text 1</p>
+  </div>
 </body>
 </html>
